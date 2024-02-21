@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+    padding:0;
+    display:flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #f3e5d8;
+    font-family: "Outfit", sans-serif;
+    line-height: 1.5rem;
+    color:rgb(56, 56, 56);
+    font-weight: 400;
+}
+
+main{
+    background-color: white;
+    width:58%;
+    margin-top: 8rem;
+    border-radius: 20px;
+    margin-bottom: 10rem;
+}
+
+section{
+    margin: 2.5rem;
+    /* border: 1px solid #f3e5d8; */
+}
+
+main section img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+main section h1{
+    font-family: "Young Serif", serif;
+    font-size: 2.6rem;
+    font-weight: 100;
+    line-height: 3rem;
+}
+
+main section h2{
+    font-family: "Young Serif", serif;
+    font-size: 2rem;
+    font-weight: 100;
+    color: #7a4c36;
+}
+
+#my_preparation{
+    background-color: #fff7fc;
+    border-radius: 10px;
+    padding: 0.8rem 2.0rem;
+}
+
+#my_preparation h3{
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #a10450;
+}
+
+#my_preparation ul{
+    line-height: 2rem;
+}
+
+#my_preparation li{
+    padding-left: 1.5rem;
+}
+
+#my_ingredients ul{
+    line-height: 2rem;
+}
+
+#my_ingredients li{
+    padding-left: 1.5rem;
+}
+
+hr{
+   background-color: rgba(180, 180, 180, 0.048);
+   opacity: 0.5; 
+   margin-top: 2rem;
+}
+
+#my_instructions li{
+    padding-left: 1.5rem;
+    margin-bottom: 0.8em;
+}
+
+#my_table table{
+    width: 100%;
+    text-align: left;
+    border-collapse: separate;
+    border-spacing: 0;
+  }
+
+#my_table th, td{
+    padding: 1rem 0 1rem 1.5rem;
+    border-bottom: 1px solid rgba(180, 180, 180, 0.884);
+}
+
+#my_table td{
+    color: #7a4c36;
+    font-weight:800;
+}
+
+#my_table th{
+    font-weight: 400;
+}
+
+#my_table tr:last-child td, #my_table tr:last-child th {
+    border-bottom: none;
+}
+
+.attribution{
+    padding: 4rem 0 2rem 0;
+    text-align: center;
+}
+
+@media screen and (max-width:800px){
+    main{
+        width:100%;
+        padding: 0 0 1rem 0;
+        border-radius: 0px;
+        margin-top: 0rem;
+        margin-bottom: 0rem;
+    }
+    main section img{
+        border-radius: 0px;
+    }
+    section{
+        margin: 2rem 0 0.8rem 0;
+        padding: 0rem 2rem;
+    }
+    #my_image{
+        padding: 0 0rem;
+        margin: 0;
+
+    }
+
+    #my_header{
+        margin: 1rem 0 0 0;
+
+    }
+    main section h1{
+        margin: 1.5rem 0;
+        font-size: 2.4rem;
+        font-weight: 100;
+    }
+
+    #my_preparation{
+        background-color: #fff7fc;
+        border-radius: 10px;
+        padding: 1rem 1.5rem 1rem 1.5rem;
+        margin: 2rem 2rem 2.5rem 2rem;
+    }
+
+    #my_preparation ul{
+        padding-left: 2rem;
+    }
+
+    #my_preparation li{
+        padding-left: 1rem;
+    }
+
+}
+
+
+
+
